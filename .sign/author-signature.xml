@@ -1,0 +1,131 @@
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="AuthorSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="LICENSE.Flora">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>R4988xI3tkQMAcLGLOROY5Wp8YTDrI0X90uMvrydtQw=</DigestValue>
+</Reference>
+<Reference URI="NOTICE">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>l2EAKn3wOhE8nl5BYO+2EEBhtqvcEi1PnqtnSS4ACi8=</DigestValue>
+</Reference>
+<Reference URI="config.xml">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Hq0dgggW4kQrMUsJVJ/MqlpV1Da+nyASVG2AYX0hfV0=</DigestValue>
+</Reference>
+<Reference URI="css%2Fstyle.css">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>q3CoBJQby7VEHXrq2tx7EN9w6KU+u1hoExClXIfpzWM=</DigestValue>
+</Reference>
+<Reference URI="icon.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u0L5vVHDMstxYsusH+JTG7/jLsnJIB0K2QFRBwgVQ0Y=</DigestValue>
+</Reference>
+<Reference URI="icon512.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>PUmehZnV9K2tUug8rfV9lSmTe1qk20/nw/CdWnzGS3A=</DigestValue>
+</Reference>
+<Reference URI="image%2Flux_3_bg_01.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>BJAr3/U24ZNRYrPzuMhXWg3BzIx9oCrcMEWjr2CuEuY=</DigestValue>
+</Reference>
+<Reference URI="image%2Flux_3_day_num_bg.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Lz1KuxPF5Adkjd2WeKdk0B80ptIZALKAlC51UmsCHSE=</DigestValue>
+</Reference>
+<Reference URI="image%2Flux_3_hands_hr.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>9kXv2iHCpcVRHJ0Q/EKbyCyOE0WgXD7ia5fTTxVN4SA=</DigestValue>
+</Reference>
+<Reference URI="image%2Flux_3_hands_min.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Xq6NwYFp2QQo6jY1wbTNrms+USNc0Uh9K82EZxgRWnw=</DigestValue>
+</Reference>
+<Reference URI="image%2Flux_3_hands_sec.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>SHVyq2zhqFbDWGBfQcGQStyf3GtxI35Lyn393/c9Kxs=</DigestValue>
+</Reference>
+<Reference URI="index.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>Q2Yy33freyckiVtZrS2neb6wcnnhJI80J7gmBmDtqzk=</DigestValue>
+</Reference>
+<Reference URI="js%2Fapp.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CMd/Q3H91ps4cM2qUYJ61mlae7YxZZumFGjq/n+whKU=</DigestValue>
+</Reference>
+<Reference URI="js%2Fmoment-hijri.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>OqDd3sHoV/NIjPexu24C+e2g/UH9TuQHGO/rAIJYmaA=</DigestValue>
+</Reference>
+<Reference URI="js%2Fmoment-with-locales.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>uAmtcHxcK7o0T9gFmupKERz4zIJwFBUkWZFtzqUZ5ag=</DigestValue>
+</Reference>
+<Reference URI="logo.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>u0L5vVHDMstxYsusH+JTG7/jLsnJIB0K2QFRBwgVQ0Y=</DigestValue>
+</Reference>
+<Reference URI="version.txt">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ROFh5ElcrCz3hYBD6eZBjpV58N3ProJvmjcmIpaM4GY=</DigestValue>
+</Reference>
+<Reference URI="#prop">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>lpo8tUDs054eLlBQXiDPVDVKfw30ZZdtkRs1jd7H5K8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+ffG9GehzVtDmgBuZV2wrsa1+CsXtQmBXpFJZl7V+XGM9m0cXGdXx9GlfR61sSR35+u41WAOyPcU/
+5nTVuzbQ53HVhRAEli0uGV9hWLOVY/IE0Nl9vS014GC+Pj0iVXXSf/UVtcNEKhArkvKSxb3kcF8J
+Q0InknWv8sJ7EZPWX1gzpLkPgEd+3+9hobfKJI5KClfX04AcpL7ILLCjWmW9y98qG2w/nLESJU8t
+I2876fg8IgWaeksK9+JrhBrGN4JhkfWCu/U90+zaJE8OpqsVyt/JdJCuHX/K9icLOW3wcTgAOpH9
+2BOhvQIJbo2NRliqAzenGrQQT2Y7QMFLxZtAsQ==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIDjzCCAnegAwIBAgIBATANBgkqhkiG9w0BAQsFADCBsDELMAkGA1UEBhMCS1IxFDASBgNVBAgM
+C1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ftc3VuZyBFbGVjdHJvbmlj
+cyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTEgMB4GA1UEAwwXU2Ftc3VuZyBBdXRob3IgQ0Eg
+Q2xhc3MxIDAeBgkqhkiG9w0BCQEWEXRpemVuQHNhbXN1bmcuY29tMB4XDTE4MDYwNDAzNDAzOFoX
+DTE5MDYwNDAzNDAzOFowSTEJMAcGA1UEBhMAMQkwBwYDVQQIEwAxCTAHBgNVBAcTADEJMAcGA1UE
+ChMAMQkwBwYDVQQLEwAxEDAOBgNVBAMTB3hsbW54cDEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCMOl6Yr7LZlCaJeKji3eulJfuRY9bGeYs6hZPtAG1ZpHIxloLE3MGgVrbX8Yp2ugAZ
+PpGBCxGFg5VLNhkTFibFVmyVHETEZtu5TqiiNJSJTRhX648G7p98i7OJTmRUKzYQGyL8GN/X6xtI
+pQP5fpzqRY9DQRoF4vjQgiJjq+Vw17qXiC3lACRyVFmvIqTGyv2T9m3ObgrFQUURPZ6iD6ZKqXP+
+1e/KvmPK5i8GkjWbJAX4k7rB4Y1oZUz2PgohvX+7zc3IN3QXGyHIrmYi+X7OSaT1oqCfVnRenOI4
+xkuRSSUQRTwiwE0trgjCMgfLIo7e5ygFH6XSqrqdRZR+fK5VAgMBAAGjGjAYMAkGA1UdEwQCMAAw
+CwYDVR0PBAQDAgeAMA0GCSqGSIb3DQEBCwUAA4IBAQBf3hj7WHlR4qjllA4mYu4x0/d8hPqG/hKd
+kbf7RtuL9p0aIhPT49g+S8G7kZZhKExkupMuKIkmFD0Ri63LpPi1DLVpAwPO7TgllOzAQ9MKAN4n
+D3RqIzY6O+NIs6A+yVIJRW5YGneNsnJVbxABQJ4HfU+kxLRDwadKOWVIBkGjYGk8z8/xN5PgsZys
+Eckh+lXTM3ptTalLVqdIkn6wwuMss3Nu4Sm6B00MUAHeuo/b3haEanJUii0S1RslBYwMCPMJZVR8
+wIQgJySZ3PZdldEZdA8+/t4jm3+IMfLAQlQgRz0anfBHasxlhIaQXYdGxeiYlRbjq+VOI1K9oMwP
+XbQd
+</X509Certificate>
+<X509Certificate>
+MIIDmzCCAoOgAwIBAgICYygwDQYJKoZIhvcNAQELBQAwXjEaMBgGA1UECgwRVGl6ZW4gQXNzb2Np
+YXRpb24xGjAYBgNVBAsMEVRpemVuIEFzc29jaWF0aW9uMSQwIgYDVQQDDBtUaXplbiBEZXZlbG9w
+ZXJzIFJvb3QgQ2xhc3MwHhcNMTMxMjMwMTUwNTU4WhcNMjgxMjI2MTUwNTU4WjCBsDELMAkGA1UE
+BhMCS1IxFDASBgNVBAgMC1NvdXRoIEtvcmVhMQ4wDAYDVQQHDAVTdXdvbjEmMCQGA1UECgwdU2Ft
+c3VuZyBFbGVjdHJvbmljcyBDby4sIEx0ZC4xDzANBgNVBAsMBk1vYmlsZTEgMB4GA1UEAwwXU2Ft
+c3VuZyBBdXRob3IgQ0EgQ2xhc3MxIDAeBgkqhkiG9w0BCQEWEXRpemVuQHNhbXN1bmcuY29tMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+tRBgnKJs8j7BFg8/UftqbqTCYBV3Jrg1vK
+YvEuoTfntYz2uT2SO67raiCsZBAYvJnP54ExkdV++UgB7BDGniWz7bA1pYKak5kNK5jtLQt2DmZX
+3qgaLjMyoAz+293CxrBQO4h8NaTQGsO/WLpeQq2Y1ZEnHsq+EUn90H6Vm0HNW+KUayGPYdey+QSW
+iiv+L++TSuHrw0b16GYn83emiTnKTCmwpSOZ712Gy9kccl46/K4C8skEDVZjTk9s7r/MN9ZNZsqR
+brT/3AYcrF4ao8ipwlHK91WJBXXaiQICvp/dNfCSDWpTWy7z4XmgP16pSLnfgZlwEwWfiaavHRNM
+mwIDAQABoxAwDjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB/ZlNMTzlIHqC3mFSq
+ptuQDZG96XnYqiWsbYkqGgNhcq6c/B3TQsg7Z8cxXY/eqJQDN5gbrIpiUugMRdSOpAEcxF3lwd5k
+oOzVLn+3I7x1k6Q4pZdi1fJx+1XjCtrQgPqtvwM77urNqIA1MSG6HUPxYAKkRKjWPsg346E8S/c1
+Hq4UVBYEFcDC467uvWtYjxjEVQTmNUaUcQLU9P6VEL4QW+t7V54IN6IJDr9HoOGSgApxIBDDU46b
+MUwl+yK0GPvhrviwfVPkfmys1hn5N+gWectQVpBB1gbfy2KlLCCvW/Kl1VmtYz1kWwTyG8bwcjE0
+GLkwKNN5lPod+FmMhuW9
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object Id="prop"><SignatureProperties xmlns:dsp="http://www.w3.org/2009/xmldsig-properties"><SignatureProperty Id="profile" Target="#AuthorSignature"><dsp:Profile URI="http://www.w3.org/ns/widgets-digsig#profile"></dsp:Profile></SignatureProperty><SignatureProperty Id="role" Target="#AuthorSignature"><dsp:Role URI="http://www.w3.org/ns/widgets-digsig#role-author"></dsp:Role></SignatureProperty><SignatureProperty Id="identifier" Target="#AuthorSignature"><dsp:Identifier></dsp:Identifier></SignatureProperty></SignatureProperties></Object>
+</Signature>

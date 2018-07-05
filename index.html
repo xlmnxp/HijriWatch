@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="Classic Watch" />
+
+    <title>HijriWatch</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Watch Page -->
+    <div id="watch-bg">
+        <!-- Watch Page : Date -->
+        <div id="date-bg">
+            <div id="date-text"></div>
+        </div>
+        <!-- Watch Page : Day -->
+        <div id="day-text">
+        	<div id="dayDate"></div>
+        	<div id="hijriDate"></div>
+        	<div id="gregorianDate"></div>
+        </div>
+        <!-- Watch Page : Hour -->
+        <div id="hands-hr-needle" class="hands-hr"></div>
+        <!-- Watch Page : Minute -->
+        <div id="hands-min-needle" class="hands-min"></div>
+        <!-- Watch Page : Second -->
+        <div id="hands-sec-needle" class="hands-sec"></div>
+    </div>
+
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/moment-hijri.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
