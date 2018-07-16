@@ -83,7 +83,7 @@
             minute = datetime.getMinutes(),
             second = datetime.getSeconds();
 
-        document.querySelector("#digital-text div").innerHTML = moment().format('hh:mm a');
+        document.querySelector("#digital-text div").innerHTML = moment().format('h:mm a');
         // Update the hour/minute/second hands
         rotateElements((hour + (minute / 60) + (second / 3600)) * 30, "hands-hr");
         rotateElements((minute + second / 60) * 6, "hands-min");
