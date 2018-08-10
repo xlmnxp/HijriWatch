@@ -11,8 +11,9 @@
 		}
 	}: tizen;
     
-	moment.locale('ar-SA');
-
+//	moment.locale('en-US');
+	moment.locale('ar-SA')
+	
 	/**
      * Rotates elements with a specific class name
      * @private

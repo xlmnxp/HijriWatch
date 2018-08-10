@@ -27,7 +27,6 @@ html, body {
     position: absolute;
     top: 154px;
     right: 22px;
-    background-image: url('../image/lux_3_day_num_bg.png');
 }
 
 #date-text {
@@ -37,14 +36,15 @@ html, body {
     top: 12px;
     right: 10px;
     text-align: center;
-    font-size: 24px;
-    color: white;
+    font-size: 1.6em;
+    color: #3c5afd;
+    font-weight: bold;
 }
 
 #day-text{
 	position: absolute;
 	text-align: center;
-	bottom: 30px;
+	bottom: 55px;
 	width: 100%;
 	text-align: center;
     font-size: 24px;
@@ -67,12 +67,13 @@ html, body {
 }
 
 #gregorianDate{
-	font-size: 0.7em;
+	font-size: 0.9em;
 }
 
 #dayDate{
 	font-size: 1.5em;
 	padding: 12px;
+	font-weight: bold;
 }
 
 /*-------WATCH PAGE : HOUR-------*/
@@ -89,6 +90,7 @@ html, body {
 #hands-hr-needle {
     z-index: 4;
     background-image: url('../image/lux_3_hands_hr.png');
+    opacity: 0.9;
 }
 
 /*-------WATCH PAGE : MINUTE-------*/
@@ -104,6 +106,7 @@ html, body {
 #hands-min-needle {
     z-index: 2;
     background-image: url('../image/lux_3_hands_min.png');
+    opacity: 0.9;
 }
 
 /*-------WATCH PAGE : SECOND-------*/
@@ -119,4 +122,5 @@ html, body {
 #hands-sec-needle {
     z-index: 6;
     background-image: url('../image/lux_3_hands_sec.png');
+    opacity: 0.9;
 }
