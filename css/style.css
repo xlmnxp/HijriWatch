@@ -11,7 +11,7 @@ html, body {
 
 /*-------WATCH PAGE-------*/
 
-#watch-bg {
+#watch-bg { /* dev كامل */
     width: 360px;
     height: 360px;
     position: absolute;
@@ -21,7 +21,7 @@ html, body {
 
 /*-------WATCH PAGE : DATE-------*/
 
-#date-bg {
+#date-bg { /* خلفية الساعة الرقمية */
     width: 52px;
     height: 52px;
     position: absolute;
@@ -29,7 +29,7 @@ html, body {
     right: 22px;
 }
 
-#date-text {
+#date-text { /* الساعة الرقمية */
     width: 32px;
     height: 32px;
     position: absolute;
@@ -41,7 +41,7 @@ html, body {
     font-weight: bold;
 }
 
-#day-text{
+#day-text{ /* تاريخ اليوم و التقويم الهجري و التقويم الميلادي */
 	position: absolute;
 	text-align: center;
 	bottom: 55px;
@@ -51,7 +51,7 @@ html, body {
     color: white;
 }
 
-#digital-text{
+#digital-text{ /* الساعة الرقمية */
 	position: absolute;
 	text-align: center;
 	top: 100px;
@@ -61,22 +61,27 @@ html, body {
     color: white;	
 }
 
-#digital-text div{
+#digital-text div{ /* الساعة الرقمية */
 	font-size: 1.8em;
 	font-weight: bold;	
 }
 
-#gregorianDate{
+#gregorianDate{ /* التقويم الميلادي */
 	font-size: 0.9em;
 }
 
-#dayDate{
+#hijridate{ /* التقويم الهجري */
+	
+}
+
+#dayDate{ /* تاريخ اليوم */
 	font-size: 1.5em;
 	padding: 12px;
 	font-weight: bold;
 }
 
 /*-------WATCH PAGE : HOUR-------*/
+/*------- عقرب الساعة -----------*/
 
 .hands-hr {
     width: 30px;
@@ -94,6 +99,7 @@ html, body {
 }
 
 /*-------WATCH PAGE : MINUTE-------*/
+/*------- عقرب الدقيقة ------------*/
 
 .hands-min {
     width: 30px;
@@ -110,6 +116,7 @@ html, body {
 }
 
 /*-------WATCH PAGE : SECOND-------*/
+/*------- عقرب الثانية ------------*/
 
 .hands-sec {
     width: 30px;
