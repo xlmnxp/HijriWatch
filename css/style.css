@@ -21,7 +21,7 @@ html, body {
 
 /*-------WATCH PAGE : DATE-------*/
 
-#date-bg { /* خلفية الساعة الرقمية */
+#date-bg { /* خلفية تاريخ اليوم */
     width: 52px;
     height: 52px;
     position: absolute;
@@ -29,7 +29,7 @@ html, body {
     right: 22px;
 }
 
-#date-text { /* الساعة الرقمية */
+#date-text { /* تاريخ اليوم */
     width: 32px;
     height: 32px;
     position: absolute;
@@ -74,7 +74,7 @@ html, body {
 	
 }
 
-#dayDate{ /* تاريخ اليوم */
+#dayDate{ /* اليوم */
 	font-size: 1.5em;
 	padding: 12px;
 	font-weight: bold;
