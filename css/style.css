@@ -41,7 +41,7 @@ html, body {
     font-weight: bold;
 }
 
-#day-text{ /* تاريخ اليوم و التقويم الهجري و التقويم الميلادي */
+#day-text{ /* اليوم و التقويم الهجري و التقويم الميلادي */
 	position: absolute;
 	text-align: center;
 	bottom: 55px;
